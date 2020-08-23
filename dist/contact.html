@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/css/style.css" />
+    <link rel="stylesheet" href="/dist/css/nav.css" />
+    <link rel="stylesheet" href="/dist/css/hover-min.css" media="all" />
+    <link rel="stylesheet" href="/dist/css/aos.css" media="all" />
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css"
+      rel="stylesheet"
+    />
+    <title>Buzzers</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+      <div class="container">
+        <!-- Brand -->
+        <a class="navbar-brand" href="index.html">
+          <strong>Buzzers</strong>
+        </a>
+
+        <!-- Collapse -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Left -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product.html">Our Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Contact
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+          </ul>
+
+          <!-- Right -->
+          <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item">
+              <a href="#" class="nav-link" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Header -->
+
+    <header class="c-header">
+      <img
+        src="https://images.unsplash.com/photo-1587560699334-cc4ff634909a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+      />
+      <div class="header-content">
+        <h1>Contact us</h1>
+        <p>Feel free to ask questions, don't be shy</p>
+      </div>
+    </header>
+
+    <!-- Contact -->
+
+    <div class="starter container">
+      <div class="wrapper">
+        <div class="contact">
+          <form name="contact" method="POST" data-netlify="true">
+            <p>
+              <label>Name </label>
+              <input type="text" name="name" />
+            </p>
+            <p>
+              <label>Company </label>
+              <input type="text" name="company" />
+            </p>
+            <p>
+              <label>Phone Number </label>
+              <input type="text" name="phone" />
+            </p>
+            <p>
+              <label>Email Address </label>
+              <input type="email" name="email" />
+            </p>
+            <p class="full">
+              <label>Message </label>
+              <textarea name="message" rows="5"></textarea>
+            </p>
+            <p class="full">
+              <button type="submit">Send</button>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="section-footer">
+      <div class="container">
+        <div>
+          <h2>Lorem ipsum dolor sit.</h2>
+          <a href="www.twitter.com">
+            <i class="fab fa-twitter fa-2x hvr-grow"></i>
+          </a>
+          <a href="www.facebook.com">
+            <i class="fab fa-facebook fa-2x hvr-grow"></i>
+          </a>
+          <a href="www.youtube.com">
+            <i class="fab fa-youtube fa-2x hvr-grow"></i>
+          </a>
+        </div>
+        <div>
+          <h3>Company Info</h3>
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">All Products</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Blog Posts</h3>
+          <ul>
+            <li><a href="#">Lorem ipsum dolor sit.</a></li>
+            <li><a href="#">Lorem ipsum dolor sit.</a></li>
+            <li><a href="#">Lorem ipsum dolor sit.</a></li>
+            <li><a href="#">Lorem ipsum dolor sit.</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Subscribe</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <form name="email-form" method="POST" data-netlify="true">
+            <div class="email-form">
+              <span class="form-control-wrap">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  size="40"
+                  class="form-control"
+                  placeholder="Email"
+                />
+              </span>
+              <button
+                type="submit"
+                class="form-control submit hvr-icon-forward"
+              >
+                <i class="fas fa-chevron-right hvr-icon"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <!-- AOS -->
+    <script src="js/aos.js"></script>
+    <script src="js/aosA.js"></script>
+    <!-- JQuery -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    ></script>
+    <!-- Bootstrap tooltips -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"
+    ></script>
+    <!-- Bootstrap core JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"
+    ></script>
+    <!-- MDB core JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"
+    ></script>
+  </body>
+</html>
