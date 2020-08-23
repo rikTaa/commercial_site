@@ -383,4 +383,19 @@ $secondary-color: #343a40;
       }
     }
   }
+
+  .news {
+    padding: 5rem 5rem;
+    background-color: #f1f5f9;
+
+    h1,
+    h2,
+    h3 {
+      font-weight: 400;
+      align-self: center;
+    }
+    p {
+      display: none;
+    }
+  }
 }
