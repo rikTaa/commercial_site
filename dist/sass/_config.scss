@@ -368,4 +368,19 @@ $secondary-color: #343a40;
       "item-3";
     grid-template-columns: 1fr;
   }
+
+  .section-footer {
+    justify-content: center;
+    text-align: center;
+
+    .container {
+      grid-template-columns: 1fr;
+      text-align: center;
+
+      div:nth-child(2),
+      div:nth-child(3) {
+        display: none;
+      }
+    }
+  }
 }
