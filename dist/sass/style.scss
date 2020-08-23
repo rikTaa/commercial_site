@@ -37,7 +37,7 @@ body {
 /* Contact Header */
 
 .c-header {
-  height: 30vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,12 +48,12 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 105vh;
+    height: 100vh;
     overflow: hidden;
   }
-  .header-content {
+  /* .header-content {
     padding-top: 8rem;
-  }
+  } */
 }
 
 /* Video Header */
@@ -442,6 +442,10 @@ body {
 }
 
 /* --------contact.html---------- */
+
+section {
+  background-color: $secondary-color;
+}
 
 .starter {
   max-width: 1170px;
